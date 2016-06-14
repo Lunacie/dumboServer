@@ -1,0 +1,37 @@
+#orderContainer ul.title
+{
+    list-decoration : none;
+}
+
+#orderContainer ul.title li
+{
+    font-weight : bold;
+}
+
+#orderContainer ul li
+{
+    list-style : none;
+    float : left;
+    min-width : 25%;
+    margin-bottom : 35px;
+}
+
+#orderContainer ul li form
+{
+    display : block;
+    float : right;
+}
+
+#orderContainer ul li form input
+{
+    float : right;
+}
+
+#orderContainer ul
+{
+    display : block;
+    list-style : none;
+    clear : both;
+    padding-bottom : 105px;
+}
+

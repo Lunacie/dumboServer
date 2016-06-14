@@ -1,0 +1,183 @@
+
+#header #menu
+{
+
+    font-weight : bold;
+    text-transform: uppercase;
+    font-family :  'Roboto Condensed', sans-serif;
+    font-size : 12px;
+
+    width : 95%;
+    margin : auto;
+    margin-top : 2%;
+    margin-bottom : 2%;
+
+    background : url('images/menu_background.png') repeat-x;
+    background-size : 100% 100%;
+    width : 70%;
+    padding-top : 4px;
+    padding-bottom : 4px;
+
+    
+}
+
+
+/* Mains  */
+
+#header #menu ul.main
+{
+    height : 3em;
+    margin : auto;
+    text-align : center;
+    display : block;
+    /* background : pink; */
+    line-height : 3em;
+}
+
+#header #menu ul.main li
+{
+    display : inline;
+    margin-right : 4.3%;
+}
+
+
+#header #menu ul.main li.level_0 a
+{
+    color : #4b4a4a;
+    text-decoration : none;
+    display : inline-block;
+}
+
+
+#header #menu ul.main li.level_0 a.level_0:hover
+{
+    background-color : #a7a7a7;
+    text-decoration : none;
+}
+
+
+
+#header #menu ul li:hover > ul
+{
+    display : block;
+    background : #a7a7a7;
+    clear : both;
+}
+
+
+/* Subs */
+
+#header #menu ul.sub
+{
+    display : none;
+    position : absolute;
+    left : 40%;
+    z-index : 1;
+    max-height : 500px;
+    max-width : 400px;
+ 
+    box-shadow: 0px 0px 2px #888888;
+}
+
+#header #menu ul.sub li
+{
+    display : block;
+    float : left;
+    text-align : left;
+    min-width : 180px;
+    margin-left : -50px;
+    padding-left : 50px;
+}
+
+#header #menu ul.sub li a
+{
+    background : url('images/separator.png') repeat-x;
+    background-position : bottom ;
+}
+
+#header #menu ul.sub  li:hover
+{
+    background : url('images/select.png') no-repeat;
+    background-position : 2px 15px;
+}
+
+#header #menu ul.sub li a:hover < li
+{
+}
+
+#header #menu ul.main ul.sub a
+{
+    text-align : left;
+    color : white;
+}
+
+
+/* Subs subs */
+#header #menu  ul.sub ul:hover 
+{
+    background : #949494;
+}
+/* subs subs subs */
+#header #menu ul.main ul.sub ul
+{
+    margin-left : 100px;
+    margin-top : -50px;
+}
+
+#header #menu ul.main ul.sub ul.sub ul:hover
+{
+    background : #848484;
+}
+
+
+
+
+/* Specifics */
+
+#header #menu ul.main li.id_58 ul
+{
+    margin-left : 10%;
+}
+
+
+/* Services */
+#header #menu ul.main li.id_58 ul.level_1
+{
+    max-width : 200px !important;
+}
+
+
+
+
+/* batterie */
+#header #menu ul.main ul.sub li.id_6 ul.level_2
+{
+    margin-left : 200px;
+}
+/* mods */
+#header #menu ul.main ul.sub li.id_25 ul.level_2
+{
+    margin-left : 200px;
+}
+/* atomiseurs */
+#header #menu ul.main ul.sub li.id_21 ul.level_2
+{
+    left : -500px;
+}
+/* chargeurs */
+#header #menu ul.main ul.sub li.id_31 ul.level_2
+{
+    left : -500px;
+}
+
+
+/* consommables */
+#header #menu ul.main ul.sub li.id_14 ul.level_3
+{
+    margin-left : 200px;
+}
+/* fils */
+#header #menu ul.main ul.sub li.id_18 ul.level_3
+{
+    left : 50px;
+}

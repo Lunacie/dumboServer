@@ -1,0 +1,52 @@
+#slideshow
+{
+    display : block;
+    width : 100%;
+    min-height : 200px
+
+    position : absolute;
+    top : 35em;
+    background : #353535;
+    z-index : 2;
+}
+
+#slideshow img.image
+{
+    width : 99%;
+    height : 100%;
+    margin-left : 0.5%;
+}
+
+#slideshow .overlay
+{
+    display : block;
+    background-image : url('images/slider_overlay.png');
+    width : 74.3%;
+    height : 25em;
+    position : absolute;
+    top : 32.8em;
+    color : white;
+    text-transform : uppercase;
+}
+
+#slideshow .overlay p
+{
+    position : absolute;
+    bottom : 0;
+    right : 0;
+    margin-right : 5%;
+}
+
+#slideshow .overlay .prev
+{
+    position : absolute;
+    top : 12em;
+    left : 2%;
+}
+
+#slideshow .overlay .next
+{
+    position : absolute;
+    top : 12em;
+    right : 2%;
+}

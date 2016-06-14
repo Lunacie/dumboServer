@@ -1,0 +1,59 @@
+body
+{
+    background : url('images/background.jpg') fixed;
+    /* width : 100%; */
+    font-family : arial;
+}
+
+#container
+{
+    width : 75%;
+    background : #E1E1E1;
+    margin : auto;
+    margin-top : 1em;
+
+    padding-bottom : 2em;
+    margin-bottom : 1em;
+}
+
+#pageContainer
+{
+    padding : 5px;
+}
+
+
+h2
+{
+    font-family: 'Roboto', sans-serif;
+    font-variant : small-caps;
+    font-weight : normal;
+    color: #424242;
+    margin-top : 50px;
+    margin-left : 30px;
+    font-size : 30px;
+    text-decoration : underline dashed;
+    text-shadow : 2px 2px 5px #a4a4a4;
+}
+
+
+h3
+{
+    font-family: 'Roboto', sans-serif;
+    font-variant : small-caps;
+    font-weight : normal;
+    color: #424242;
+    font-size : 22px;
+    text-shadow : 2px 2px 5px #a4a4a4;
+}
+
+<?c include('styles/products.css'); ?>
+<?c include('styles/order.css'); ?>
+<?c include('styles/product.css'); ?>
+<?c include('styles/panier.css'); ?>
+<?c include('styles/top-menu.css'); ?>
+<?c include('styles/header.css'); ?>
+<?c include('styles/menu.css'); ?>
+<?c include('styles/slideshow.css'); ?>
+<?c include('styles/footer.css'); ?>
+
+<?c include('styles/member.css'); ?>

@@ -1,0 +1,19 @@
+footer
+{
+    clear : both;
+
+    color : white;
+    text-align : center;
+    font-family : 'Roboto', sans-serif;
+    font-variant : small-caps;
+    padding-bottom : 1em;
+    text-shadow : 1px 1px 1px rgba(0, 0, 0, 0.9);
+}
+
+footer a
+{
+    color : white;
+    text-decoration : none;
+    font-weight : bold;
+}
+
